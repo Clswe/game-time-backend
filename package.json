@@ -1,0 +1,32 @@
+{
+  "name": "game-time",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.9.2",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mockingoose": "^2.16.2",
+    "mongoose-mock": "^0.4.0",
+    "supertest": "^7.0.0",
+    "winston": "^3.17.0"
+  }
+}
